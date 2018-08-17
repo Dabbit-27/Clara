@@ -1,0 +1,24 @@
+{
+  "branchPrefix": "dep/",
+  "devDependencies": {
+    "branchPrefix": "dev-dep/"
+  },
+  "enabled": true,
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/__tests__/**",
+    "**/test/**",
+    "**/tests/**"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "optionalDependencies": {
+    "branchPrefix": "opt-dep/"
+  },
+  "pinVersions": false,
+  "rebaseStalePrs": false,
+  "semanticCommitScope": null,
+  "unpublishSafe": true
+}
